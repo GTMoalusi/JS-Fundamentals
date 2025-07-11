@@ -2,6 +2,6 @@ let myArgument = process.argv[2];
 
 if (myArgument === undefined) {
 	console.log("No argument");
-}else {
+}else{
 	console.log(myArgument);
 }
