@@ -13,4 +13,4 @@ let num2 = parseInt(secondArg);
 
 let sum = add(num1, num2);
 
-comsole.log(sum);
+console.log(sum);
