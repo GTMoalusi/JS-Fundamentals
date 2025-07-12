@@ -6,12 +6,10 @@ if (isNaN(isANumber)){
 	console.log("Missing number of occurrences");
 }else{
 	let outputString = "";
-
-	for (let i = 0; i < isANumber; i++) {
+	for (let i = 0; i < isANumber; i++){
    		outputString += "C is fun\n";
 	}
-
-  console.log(outputString);
+  	console.log(outputString);
 }
 
 
