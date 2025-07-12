@@ -1,10 +1,11 @@
 let lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-let output = "";
+let output =[];
 
-for (let i = 0; i < lines.length; i++) {
-  output += lines[i];
-  output += "\n";
+for (let i = 0; i < lines.length; i++){
+  output.push(lines[i]);
 }
 
-console.log(output);
+let outputString = output.join("\n");
+
+console.log(outputString);
