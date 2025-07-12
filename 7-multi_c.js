@@ -4,7 +4,7 @@ let isANumber = parseInt(myStringInput);
 
 if (isNaN(isANumber)){
 	console.log("Missing number of occurrences");
-}else{
+}else if (isANumber > 0) {
 	let linesToPrint = [];
 
 	for (let i = 0; i < isANumber; i++){
