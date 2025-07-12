@@ -16,7 +16,7 @@ else {
 		}
 		squareRows.push(row);
 	}
-	let finalOutput = squareRow.join("\n");
+	let finalOutput = squareRows.join("\n");
 
 	console.log(finalOutput);
 }
